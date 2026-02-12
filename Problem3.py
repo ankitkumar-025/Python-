@@ -1,10 +1,6 @@
-import os
-
-# Select the directory whose content you want to list 
-directory_path = '/'
-
-# Use the os module to list the directory content 
-contents = os.listdir(directory_path)
-
-# Print the contents of the directory 
-print(contents)
+# To detect double space in a string..
+name="ANKIT IS A GOOD  BOY"
+print(name.find("  "))
+print(name.find("GOO"))
+print(name.replace("  "," "))
+#NOTE:-->String is immutable i.e ->once it is defined it will not changed later..
