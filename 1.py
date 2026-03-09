@@ -16,4 +16,5 @@ def gratestOfThreeNum(a,b,c):
 gratestOfThreeNum(1,2,3)       
 
 gratestOfThreeNum(5,3,2)         
+
     
